@@ -300,6 +300,21 @@
     padding-bottom: 30px !important;
 }
 
+.inner-item {
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.portfolio-item .project-title {
+    padding-left: 1rem !important;
+    padding-top: 1rem !important;
+    font-size: 14px;
+}
+
+.portfolio-item p {
+    padding-left: 1rem !important;
+    font-size: 12px;
+}
 
 /*** Team ***/
 .team-item img {
