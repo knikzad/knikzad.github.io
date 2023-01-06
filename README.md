@@ -1,2 +1,4 @@
 # knikzad.github.io
-I'm creating this repository to build my portfolio on GitHub. It is under development...
+This is a special repository that I created to build my portfolio on GitHub.
+
+![Khalifa Nikzad Portfolio](/img/portfolio.png)
