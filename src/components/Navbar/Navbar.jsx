@@ -13,9 +13,9 @@ function NavigationBar() {
                 <Navbar.Collapse id="navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#tech-stack">Tech Stack</Nav.Link>
                         <Nav.Link href="#experience">Experience</Nav.Link>
-                        <Nav.Link href="#project">Project</Nav.Link>
+                        <Nav.Link href="#featured-project">Featured Project</Nav.Link>
                         <Nav.Link href="#education">Education</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>

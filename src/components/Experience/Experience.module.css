@@ -1,0 +1,110 @@
+.experience {
+    padding: 100px 20px;
+    background: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sectionHeader h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.sectionHeader p {
+    max-width: 700px;
+    margin: auto;
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 40px;
+    margin-bottom: 45px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: .25s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cardHeader h3 {
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+.cardHeader h4 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.location {
+    color: #6b7280;
+    font-size: .95rem;
+}
+
+.period {
+    font-weight: 600;
+    color: #2563eb;
+    white-space: nowrap;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.badge {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: .9rem;
+    border: 1px solid #dbeafe;
+}
+
+.bullets {
+    padding-left: 18px;
+}
+
+.bullets li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+    color: #374151;
+}
+
+@media (max-width: 768px) {
+
+    .cardHeader {
+        flex-direction: column;
+    }
+
+    .period {
+        margin-top: 10px;
+    }
+
+}

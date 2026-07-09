@@ -1,0 +1,75 @@
+.footer{
+
+    background:#0F172A;
+
+    color:white;
+
+    padding:60px 20px;
+
+}
+
+.container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.container h2{
+
+    margin-bottom:10px;
+
+}
+
+.container p{
+
+    color:#CBD5E1;
+
+}
+
+.socials{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin:30px 0;
+
+}
+
+.socials a{
+
+    color:white;
+
+    font-size:1.6rem;
+
+    transition:.3s;
+
+}
+
+.socials a:hover{
+
+    color:#2563EB;
+
+}
+
+.copy{
+
+    margin-top:20px;
+
+    font-size:.9rem;
+
+}
+
+.tech{
+
+    font-size:.85rem;
+
+    color:#94A3B8;
+
+}

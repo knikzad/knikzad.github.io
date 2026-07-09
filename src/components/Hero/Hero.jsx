@@ -1,48 +1,58 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import {
+    FaGithub,
+    FaLinkedin,
+    FaDownload,
+    FaEnvelope,
+} from "react-icons/fa";
+
 import personal from "../../data/personal";
 import styles from "./Hero.module.css";
 
 function Hero() {
     return (
         <section id="hero" className={styles.hero}>
-
             <Container>
 
                 <Row className="align-items-center">
 
                     <Col lg={7}>
+
                         <span className={styles.badge}>
-                            Available for Backend Software Engineering Roles
+                            👋 Available for Backend Software Engineering Roles
                         </span>
-                        <p className={styles.subtitle}>
-                            Backend Software Engineer
-                        </p>
 
                         <h1 className={styles.title}>
-                            Khalifa
-                            <br />
-                            <span>Nikzad</span>
+                            {personal.name}
                         </h1>
-                        <p className={styles.subtitle}>
-                            Backend Software Engineer | Python Developer
-                        </p>
-                        <p className={styles.description}>
-                            I design and build scalable backend systems with a focus on clean architecture,
-                            API development, and modern Python technologies including FastAPI, Django,
-                            React, MongoDB, Docker, and Kubernetes.
-                        </p>
 
+                        <h2 className={styles.role}>
+                            {personal.title}
+                        </h2>
+
+                        <p className={styles.description}>
+                            Backend Software Engineer with 8+ years of experience building scalable web applications, REST APIs, enterprise software, and data-driven systems using Python, FastAPI, Django, React, Docker, and modern software engineering practices.
+                        </p>
                         <div className={styles.buttons}>
 
-                            <Button size="lg">
+                            <Button
+                                size="lg"
+                                as="a"
+                                href="https://knikzad.github.io/assets/resume/Khalifa_Nikzad_Resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <FaDownload />
-                                Download Resume
+                                Download CV
                             </Button>
 
                             <Button
                                 variant="outline-dark"
                                 size="lg"
+                                as="a"
+                                href="https://github.com/knikzad"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <FaGithub />
                                 GitHub
@@ -51,34 +61,47 @@ function Hero() {
                             <Button
                                 variant="outline-primary"
                                 size="lg"
+                                as="a"
+                                href="https://www.linkedin.com/in/knikzad/"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <FaLinkedin />
                                 LinkedIn
                             </Button>
-                            <Button variant="dark" size="lg">
-                                Contact Me
+
+                            <Button
+                                variant="outline-secondary"
+                                size="lg"
+                                as="a"
+                                href="mailto:khalifah.nikzad@gmail.com"
+                            >
+                                <FaEnvelope />
+                                Email
                             </Button>
+
                         </div>
+
 
                     </Col>
 
-                    <Col
-                        lg={5}
-                        className="text-center"
-                    >
+                    <Col lg={5} className="text-center">
 
-                        <img
-                            src={personal.profileImage}
-                            alt={personal.name}
-                            className={styles.profileImage}
-                        />
+                        <div className={styles.photoWrapper}>
+
+                            <img
+                                src={personal.profileImage}
+                                alt={personal.name}
+                                className={styles.profileImage}
+                            />
+
+                        </div>
 
                     </Col>
 
                 </Row>
 
             </Container>
-
         </section>
     );
 }
