@@ -38,7 +38,7 @@ function Hero() {
                             <Button
                                 size="lg"
                                 as="a"
-                                href="https://knikzad.github.io/assets/resume/Khalifa_Nikzad_Resume.pdf"
+                                href="https://knikzad.github.io/assets/documents/Khalifa_Nikzad_Resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
