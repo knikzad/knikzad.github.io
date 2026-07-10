@@ -11,22 +11,15 @@ function About() {
                     <h2>About Me</h2>
 
                     <p>
-                        I'm a Backend Software Engineer with more than eight years
-                        of professional experience developing enterprise web
-                        applications, backend systems, and data-driven platforms.
+                        I'm a Backend Software Engineer with more than eight years of professional experience developing backend systems, full-stack web applications, and data-driven solutions.
                     </p>
 
                     <p>
-                        I'm currently completing my Master's degree in Computer
-                        Science at the University of Vienna, where I focus on
-                        Software Engineering, Distributed Systems, Cloud
-                        Computing, and Backend Development.
+                        I'm currently completing my Master's degree in Computer Science at the University of Vienna, where I specialize in Software Engineering, Distributed Systems, Cloud Computing, and Backend Development.
                     </p>
 
                     <p>
-                        I enjoy designing scalable systems, building REST APIs,
-                        solving complex technical problems, and turning business
-                        requirements into reliable software solutions.
+                        My experience spans software engineering and data-focused roles, giving me a strong foundation in designing scalable architectures, building REST APIs, developing full-stack applications, optimizing data workflows, and translating business requirements into reliable software solutions.
                     </p>
 
                 </div>

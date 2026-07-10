@@ -19,7 +19,7 @@ function Hero() {
                     <Col lg={7}>
 
                         <span className={styles.badge}>
-                            👋 Available for Backend Software Engineering Roles
+                            👋 Available for Backend Software Engineer | Full-Stack Developer Roles
                         </span>
 
                         <h1 className={styles.title}>
@@ -31,7 +31,7 @@ function Hero() {
                         </h2>
 
                         <p className={styles.description}>
-                            Backend Software Engineer with 8+ years of experience building scalable web applications, REST APIs, enterprise software, and data-driven systems using Python, FastAPI, Django, React, Docker, and modern software engineering practices.
+                            Backend Software Engineer with 8+ years of professional experience building scalable backend systems, REST APIs, and full-stack web applications using Python, FastAPI, Django, React, Docker, and modern software engineering practices.
                         </p>
                         <div className={styles.buttons}>
 
