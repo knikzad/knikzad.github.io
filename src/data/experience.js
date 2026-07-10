@@ -14,8 +14,8 @@ const experience = [
             "KoboToolbox",
         ],
         bullets: [
-            "Developed a Django/MySQL web application to monitor project progress for a USD 30M+ consortium-funded humanitarian program.",
-            "Designed Python-based ETL pipelines, SQL queries, and database structures to consolidate and validate monitoring data from five NGOs.",
+            "Developed a Django/MySQL web application to monitor project progress across multiple humanitarian projects within the NRC.",
+            "Designed Python-based ETL pipelines, SQL queries, and database structures to consolidate and validate data from different sources.",
             "Automated data validation and reporting workflows, improving the quality and consistency of data covering approximately 500,000 beneficiaries.",
         ],
     },
