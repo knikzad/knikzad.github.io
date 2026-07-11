@@ -11,7 +11,7 @@ function About() {
                     <h2>About Me</h2>
 
                     <p>
-                        I'm a Backend Software Engineer with more than eight years of professional experience developing backend systems, full-stack web applications, and data-driven solutions.
+                        I'm a Backend Software Engineer with more than seven years of professional experience developing backend systems, full-stack web applications, and data-driven solutions.
                     </p>
 
                     <p>
@@ -36,7 +36,7 @@ function About() {
 
                             <li>🎓 MSc Computer Science</li>
 
-                            <li>💼 8+ Years Experience</li>
+                            <li>💼 7+ Years Experience</li>
 
                             <li>🐍 Python Backend Developer</li>
 

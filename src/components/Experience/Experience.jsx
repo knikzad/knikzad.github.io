@@ -9,7 +9,7 @@ function Experience() {
                 <div className={styles.sectionHeader}>
                     <h2>Professional Experience</h2>
                     <p>
-                        More than 8 years of professional experience developing
+                        More than 7 years of professional experience developing
                         software solutions, backend systems, and enterprise web
                         applications.
                     </p>

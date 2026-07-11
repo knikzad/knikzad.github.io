@@ -23,7 +23,7 @@ function Stats() {
 
                             <FaBriefcase className={styles.icon}/>
 
-                            <h2>8+</h2>
+                            <h2>7+</h2>
 
                             <p>Years of Professional Experience</p>
 

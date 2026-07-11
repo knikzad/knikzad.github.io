@@ -31,7 +31,7 @@ function Hero() {
                         </h2>
 
                         <p className={styles.description}>
-                            Backend Software Engineer with 8+ years of professional experience building scalable backend systems, REST APIs, and full-stack web applications using Python, FastAPI, Django, React, Docker, and modern software engineering practices.
+                            Backend Software Engineer with 7+ years of professional experience building scalable backend systems, REST APIs, and full-stack web applications using Python, FastAPI, Django, React, Docker, and modern software engineering practices.
                         </p>
                         <div className={styles.buttons}>
 
