@@ -7,7 +7,7 @@ const education = [
 
         location: "Vienna, Austria",
 
-        period: "2024 – Present",
+        period: "2024 – Expected 2027",
     },
 
     {
