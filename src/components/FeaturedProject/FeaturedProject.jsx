@@ -1,5 +1,10 @@
 import projects from "../../data/projects";
 import styles from "./FeaturedProject.module.css";
+import {
+    FaGithub,
+    FaFilePdf,
+    FaChalkboard
+} from "react-icons/fa";
 
 function FeaturedProject() {
 
@@ -8,85 +13,172 @@ function FeaturedProject() {
     return (
 
         <section id="featured-project" className={styles.section}>
+
             <div className={styles.sectionHeader}>
 
-            <h2>Featured Project</h2>
+                <h2>Featured Software Engineering Project</h2>
 
-            <p>
-            The highlight of my recent software engineering work.
-            </p>
+                <p>
+                    A customizable fact comparison framework featuring a
+                    Domain-Specific Language (DSL), AST-based validation,
+                    secure execution, and explainable results.
+                </p>
 
             </div>
-            <div className={styles.container}>
 
-                <div className={styles.left}>
+            <div className={styles.content}>
 
-                    <h2>{project.title}</h2>
+                <h3 className={styles.projectTitle}>
+                    {project.title}
+                </h3>
 
-                    <p className={styles.period}>
-                        {project.period}
-                    </p>
+                <p className={styles.description}>
+                    {project.description}
+                </p>
 
-                    <p className={styles.description}>
-                        {project.description}
-                    </p>
+                <div className={styles.tech}>
 
-                    <div className={styles.tech}>
+                    {project.technologies.map((item) => (
 
-                        {project.technologies.map((item) => (
-                            <span key={item}>
-                                {item}
-                            </span>
-                        ))}
-
-                    </div>
-
-                    <h4>Key Features</h4>
-
-                    <ul>
-
-                        {project.features.map((feature) => (
-                            <li key={feature}>
-                                {feature}
-                            </li>
-                        ))}
-
-                    </ul>
-
-                    <div className={styles.buttons}>
-
-                        <a
-                            href={project.github}
-                            className={styles.primary}
+                        <span
+                            key={item}
+                            className={styles.techBadge}
                         >
-                            GitHub
-                        </a>
+                            {item}
+                        </span>
 
-                        <a
-                            href={project.report}
-                            className={styles.secondary}
-                        >
-                            Report
-                        </a>
+                    ))}
 
-                        <a
-                            href={project.presentation}
-                            className={styles.secondary}
-                        >
-                            Presentation
-                        </a>
+                </div>
+
+                <div className={styles.demoContainer}>
+
+                    <div className={styles.demoSection}>
+
+                        <h3>Live Demonstration</h3>
+
+                        <p>
+                            Watch the complete workflow, from creating and validating a
+                            comparison formula to executing it and reviewing explainable
+                            comparison results.
+                        </p>
+
+                        <div className={styles.browser}>
+
+                            <div className={styles.browserHeader}>
+
+                                <div className={styles.browserDots}>
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                                <div className={styles.browserTitle}>
+
+                                    FactCheck Web Application
+
+                                </div>
+
+                            </div>
+
+                            <video
+                                className={styles.demoVideo}
+                                muted
+                                playsInline
+                                controls
+                                preload="metadata"
+                            >
+
+                                <source
+                                    src={project.demo}
+                                    type="video/mp4"
+                                />
+
+                                Your browser does not support the video tag.
+
+                            </video>
+
+                        </div>
 
                     </div>
 
                 </div>
 
-                <div className={styles.right}>
+                <div className={styles.componentsSection}>
 
-                    <img
-                        src={project.image}
-                        alt={project.title}
-                        className={styles.image}
-                    />
+                    <h3>Core Engineering Components</h3>
+
+                    <p>
+                        The key architectural components that power the framework.
+                    </p>
+
+                    <div className={styles.cardGrid}>
+
+                        {project.components.map((component) => {
+
+                            const Icon = component.icon;
+
+                            return (
+
+                                <div
+                                    key={component.title}
+                                    className={styles.card}
+                                >
+
+                                    <div className={styles.cardHeader}>
+
+                                        <Icon className={styles.icon} />
+
+                                        <h4>{component.title}</h4>
+
+                                    </div>
+
+                                    <p>
+                                        {component.description}
+                                    </p>
+
+                                </div>
+
+                            );
+
+                        })}
+
+                    </div>
+
+                </div>
+                <div className={styles.buttons}>
+
+                    <a
+                        href={project.github}
+                        className={styles.primary}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaGithub />
+                        GitHub Repository
+                    </a>
+
+                    <a
+                        href={project.report}
+                        className={styles.secondary}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaFilePdf />
+                        Technical Report
+                    </a>
+
+                    <a
+                        href={project.presentation}
+                        className={styles.secondary}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaChalkboard />
+                        Project Presentation
+                    </a>
 
                 </div>
 
