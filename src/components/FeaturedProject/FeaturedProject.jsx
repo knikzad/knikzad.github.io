@@ -16,7 +16,7 @@ function FeaturedProject() {
 
             <div className={styles.sectionHeader}>
 
-                <h2>Featured Software Engineering Project</h2>
+                <h2>Featured Project</h2>
 
                 <p>
                     A customizable fact comparison framework featuring a
